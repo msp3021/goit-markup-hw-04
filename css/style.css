@@ -217,8 +217,8 @@ a {
 .header-contact {
   color: #757575;
   font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  line-height: 24px;
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -271,6 +271,7 @@ a {
   height: 44px;
   margin-bottom: 10px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .social-icon-single:hover,
@@ -298,6 +299,13 @@ a {
   cursor: pointer;
 }
 
+.logo-description {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0px 215px 0px 215px;
+}
+
 .footer-description {
   background: #2f303a;
   padding-top: 60px;
@@ -315,7 +323,7 @@ a {
 }
 .footer-contact {
   list-style: none;
-  margin-top: 0;
+  margin-top: 9px;
   margin-bottom: 0;
   padding: 0;
 }
@@ -328,6 +336,41 @@ a {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0;
+}
+.footer-social-description {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: left;
+}
+.footer-blocks {
+  display: flex;
+  gap: 70px;
+}
+.footer-social-item {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  fill: var(--white);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.footer-social-link:hover,
+.foter-social-link:focus {
+  background-color: var(--main-blue);
+  border-radius: 50px;
+  fill: var(--white);
 }
 
 .portfolio-list {
